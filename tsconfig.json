@@ -1,0 +1,36 @@
+// scripts/tsconfig.json
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "lib": ["es6", "dom"],
+        "rootDir": "src",
+        "module": "commonjs",
+        "target": "es5",
+
+        "sourceMap": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+
+        /* Additional Checks */
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+
+        /* Module Resolution Options */
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+
+        /* Experimental Options */
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+
+        /* Advanced Options */
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true
+    },
+    "include": ["./src"],
+    "exclude": ["node_modules"]
+}

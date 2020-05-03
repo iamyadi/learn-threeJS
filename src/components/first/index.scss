@@ -1,0 +1,6 @@
+.wrap {
+    background-color: red($color: #000000);
+    .test {
+        background-color: green($color: #000000);
+    }
+}
